@@ -1,0 +1,92 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    background: #f4f6f8;
+}
+header {
+    background-image: url("cva.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 320px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+header h1,
+header .slogan {
+    background: rgba(255,255,255,0.85);
+    padding: 12px 25px;
+    border-radius: 12px;
+    margin: 6px 0;
+}
+
+.slogan {
+    font-style: italic;
+}
+nav {
+    background: #2196f3;
+    text-align: center;
+    padding: 14px 0;
+}
+
+nav a {
+    display: inline-block;
+    margin: 0 12px;
+    padding: 8px 18px;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+nav a:hover,
+nav a.active {
+    background: rgba(255,255,255,0.3);
+    color: #ffeb3b;
+}
+.main {
+    max-width: 1100px;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+.main h2 {
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+
+    background: white;
+    padding: 40px;
+    border-radius: 18px;
+}
+
+.box img {
+    width: 60%;
+    height: 380px;
+    object-fit: cover;
+    border-radius: 18px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+}
+
+.text li {
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
